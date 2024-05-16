@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/mountains-universe-1\ 1.jpg);
+    background-size: 100% 100%;
+    background-repeat: none;
+
+    width: 100vw;
+    height: 100vh; 
+    
+}
+
+nav {
+    display: flex;
+    width: 1280px;
+    height: 100px;
+    padding: 40px 719px 40px 72px;
+    align-items: center;
+    flex-shrink: 0;
+
+    gap: 30px;    
+}
+
+nav a {
+    color: var(--Neutral-Colors-White, #FFF);
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21.667px; 
+
+    text-decoration: none;
+}
+
+.text {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.exploration {
+    background-image: url(./assets/mountains-universe-3.jpg);
+    background-size: 100% 100%;
+    background-repeat: none;
+    position: absolute;
+   
+
+    width: 100%;
+    height: 100vh;
+}
+
+.universe {
+    background-image: url(./assets/mountains-universe-2.jpg);
+    background-size: 100% 100%;
+    background-repeat: none;
+    position: absolute;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+p {
+    width: 648px;
+    color: var(--Platform-Aliases-Ttulos, #E1E1E6);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+
+    margin-top: 20px;
+}
+
+h1 {
+    color: var(--Platform-Aliases-Ttulos, #E1E1E6);
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; 
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    height: 100vh;
+}
+
+main h1 {
+    color: var(--Platform-Aliases-Ttulos, #E1E1E6);
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; 
+}
+
+main button {
+    background-color: transparent;
+    color: white;
+    font-family: "Roboto", sans-serif;
+
+    display: inline-flex;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    border-radius: 5px;
+    border: 2px solid #FFF;
+}
